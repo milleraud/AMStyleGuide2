@@ -1,0 +1,298 @@
+/*Containers*/
+.colorcontainer{
+    display:flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.typeContainer{
+    padding: 100px;
+}
+
+.colorpalette{
+    margin: 30px;
+}
+
+
+.logoContainer{
+    padding: 100px;
+}
+
+.imagery{
+    margin: 30px;
+}
+
+.typography{
+    margin: 30px;
+}
+
+.gridspacer{
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+/*Buttons*/
+.buttonContainer{
+    padding: 50px;
+    display: grid;
+    grid-row-gap: 10px;
+    
+}
+
+
+.buttons{
+    margin: 30px;
+}
+
+.buttonPrimary{
+    width: 177px;
+    height: 48px;
+    background-color: #0A4251;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    line-height: 50px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.buttonPrimaryHov{
+    width: 177px;
+    height: 48px;
+    background-color: #166074;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    line-height: 50px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.buttonPrimaryDis{
+    width: 177px;
+    height: 48px;
+    background-color: #166074;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    line-height: 50px;
+    opacity: 30%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.buttonSec{
+    width: 177px;
+    height: 48px;
+    background-color: #545861;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    line-height: 50px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.buttonSecHov{
+    width: 177px;
+    height: 48px;
+    background-color: #727680;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    line-height: 50px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.buttonSecDis{
+    width: 177px;
+    height: 48px;
+    background-color: #727680;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    line-height: 50px;
+    opacity: 30%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.buttonAlt{
+    width: 177px;
+    height: 48px;
+    background-color: #ffffff;
+    border: 2px solid #545861;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    color: #545861;
+    line-height: 50px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+.buttonAltHov{
+    width: 177px;
+    height: 48px;
+    background-color: #ffffff;
+    border: 2px solid #ACACB7;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    color: #545861;
+    line-height: 50px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.buttonAltDis{
+    width: 177px;
+    height: 48px;
+    background-color: #ffffff;
+    border: 2px solid #ACACB7;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    color: #545861;
+    line-height: 50px;
+    opacity: 40%;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+
+/*Paragraph Styles*/
+.sectionDescription{
+    margin-left: 30px;
+}
+
+.header{
+    margin: 30px;
+    display: flex;
+    align-items: baseline;
+}
+
+.pageTopic{
+    font: 67px;
+    margin: 30px;
+}
+
+.sectionHead{
+    font: 38px;
+    margin: 30px;
+}
+
+.gray{
+    color: #545861;
+}
+
+/*Font Styles*/
+
+h1{
+    color:black;
+    font-family: Barlow Condensed;
+    font-style: Bold;
+    font-size: 50px;
+
+}
+
+h2{
+    color: black;
+    font-family: Barlow Condensed;
+    font-style: Bold;
+    font-size: 38px;
+}
+
+h3{
+    color:black;
+    font-family: Barlow Condensed;
+    font-style: SemiBold;
+    font-size: 28px;
+}
+
+h4{
+    color:black;
+    font-family:Roboto;
+    font-style: Black;
+    font-size: 21 px;
+}
+
+h5{
+    color:black;
+    font-family: Roboto;
+    font-style: Medium;
+    font-size: 12 px;
+    text-transform: uppercase;
+}
+
+Para{
+    color:black;
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 16 px;
+}
+
+Small{
+    color:black;
+    font-famiy: Roboto;
+    font-style: Regular;
+    font-size: 12 px;
+}
+
+p{
+    margin: 30 px;
+}
